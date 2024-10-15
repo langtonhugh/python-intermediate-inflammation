@@ -33,7 +33,7 @@ def daily_min(data):
     return np.min(data, axis=0)
 
 
-def s_dev(data):
+def std_dev(data):
     """Computes and returns standard deviation for data."""
     mmm = np.mean(data, axis=0)
     devs = []
