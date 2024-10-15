@@ -32,7 +32,7 @@ def test_daily_mean_integers():
     npt.assert_array_equal(daily_mean(test_input), test_result)
 
 
-@pytest.mark.parametrize('data, expected_standard_deviation', [
+@pytest.mark.parametrize('test, expected', [
     ([0, 0, 0], 0.0),
     ([1.0, 1.0, 1.0], 0),
     ([0.0, 2.0], 1.0)
